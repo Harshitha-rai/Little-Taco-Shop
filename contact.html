@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"href="favicon.ico" type="image/icon">
+    <title>LTS Contact</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Contact us</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html/#about">About <abbr title="Little Taco Shop">LTS</abbr></a></li>
+                <li><a href="index.html/menu">Our Menu</a></li>
+                <li><a href="hours.html">Store Hours</a></li>
+            </ul>
+        </nav>
+
+        <figure>
+            <img src="tacos-close-up.PNG" alt="Little Taco Shop Tacos" width="400" height="267"/>
+        </figure>
+        <figcaption>Little Taco Shop Tacos</figcaption>
+    </header>
+
+    <main>
+        <section>
+            <form action="https://httpbin.org/get" method="get">
+                <h1>Our Contact Form</h1>
+                <fieldset>
+                    <legend>Send Us A Message</legend>
+
+                    <p>
+                        <label for="nameid">Name: </label>
+                        <input type="text" name="nameid" id="nameid">
+                    </p>
+                    <p>
+                        <label for="emailid">Email:</label>
+                        <input type="email" name="emailid" id="emailid">
+                    </p>
+                    <p>
+                        <label for="message">Your message:</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="5">Type your message here</textarea>
+                    </p>
+                </fieldset>
+                <br>
+                <button type="send">Send</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+        <section>   
+            <h2>Our Location</h2>
+            <address>
+                PVS circle, Lalbag road <br>
+                Mangalore <br><br>
+
+                Phone: <a href="tel:+9999999999">91-9999999999</a>
+            </address>
+            <br>
+            <a href="#">Back to Top</a>
+        </section>
+    </main>
+    <hr>
+
+    <footer>
+        <p>Copywrite &copy; The Little Taco Shop</p>
+    </footer>
+</body>
+</html>
